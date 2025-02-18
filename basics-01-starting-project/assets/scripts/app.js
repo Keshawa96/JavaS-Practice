@@ -1,8 +1,10 @@
 // alert("This works !");
 
- let currentResult = 0;
+const defaultResult = 0;
+let currentResult = defaultResult;
 
- currentResult = currentResult + 10;
+currentResult = currentResult + 10 * 56 ;
+let calculationDescription = `(${defaultResult} + 10) * 3/2 - 10` ;
 
- outputResult(currentResult, '');
+outputResult(currentResult, calculationDescription);
 
